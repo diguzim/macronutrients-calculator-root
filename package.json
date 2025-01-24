@@ -2,7 +2,14 @@
   "name": "macronutrients-calculator-root",
   "version": "1.0.0",
   "description": "MaCal root repo with submodules",
-  "scripts": {},
+  "scripts": {
+    "install:frontend": "cd macronutrients-calculator-fe && npm install",
+    "install:backend": "cd macronutrients-calculator-be && npm install",
+    "install": "npm run install:frontend && npm run install:backend",
+    "init:env:frontend": "cd macronutrients-calculator-fe && cp .env.example .env",
+    "init:env:backend": "cd macronutrients-calculator-be && cp .env.example .env",
+    "init:env": "npm run init:env:frontend && npm run init:env:backend"
+  },
   "author": "",
   "license": "ISC"
 }
