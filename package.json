@@ -1,0 +1,10 @@
+{
+  "name": "macronutrients-calculator-root",
+  "version": "1.0.0",
+  "description": "MaCal root repo with submodules",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

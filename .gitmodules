@@ -1,0 +1,6 @@
+[submodule "macronutrients-calculator-fe"]
+	path = macronutrients-calculator-fe
+	url = https://github.com/diguzim/macronutrients-calculator-fe.git
+[submodule "macronutrients-calculator-be"]
+	path = macronutrients-calculator-be
+	url = https://github.com/diguzim/macronutrients-calculator-be.git
